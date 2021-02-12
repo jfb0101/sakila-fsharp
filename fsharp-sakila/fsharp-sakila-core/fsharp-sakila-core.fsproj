@@ -1,14 +1,12 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>net5.0</TargetFramework>
     <RootNamespace>fsharp_sakila_core</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
     <Compile Include="Library.fs" />
-    <Compile Include="Models/Film.fs" />
-    <Compile Include="UseCases/Films/listFilms.fs" />
   </ItemGroup>
 
 </Project>

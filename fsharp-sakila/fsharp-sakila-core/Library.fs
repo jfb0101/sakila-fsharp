@@ -1,4 +1,4 @@
-﻿namespace fsharp_sakila
+﻿namespace fsharp_sakila_core
 
 module Say =
     let hello name =
