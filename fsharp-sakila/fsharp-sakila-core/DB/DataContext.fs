@@ -8,8 +8,8 @@ module DataContext =
         inherit DbContext(options)
 
         [<DefaultValue>]
-        val mutable Films: DbSet<Film>
-        member public this._Films   with get() = this.Films
-                                    and set value = this.Films <- value
+        val mutable _Films: DbSet<Film>
+        member public this.Films   with get() = this._Films
+                                    and set value = this._Films <- value
 
                                         

@@ -9,6 +9,7 @@
     <Compile Include="Models/Film.fs" />
     <Compile Include="DB/DataContext.fs" />
     <Compile Include="UseCases/Films/listFilms.fs" />
+    <Compile Include="UseCases/Films/addFilm.fs" />
   </ItemGroup>
 
   <ItemGroup>

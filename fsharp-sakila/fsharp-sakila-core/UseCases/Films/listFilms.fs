@@ -1,9 +1,9 @@
-namespace Sakila.UseCases
+namespace Sakila.UseCases.Films
 
 open Sakila.Models
 open Sakila.DataContext
 open System.Linq
 
 module ListFilms =
-    let execute (ctx:SakilaContext) limit = 
-        ctx._Films.ToList()
+    let ``$`` (ctx:SakilaContext) limit = 
+        ctx.Films.ToList()
